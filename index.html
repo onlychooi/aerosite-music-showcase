@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aero Music</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Exo+2:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="atmosphere atmosphere-1"></div>
+  <div class="atmosphere atmosphere-2"></div>
+  <div class="atmosphere atmosphere-3"></div>
+  <div class="atmosphere atmosphere-4"></div>
+
+  <main class="portal-shell">
+    <header class="topbar panel">
+      <div class="topbar__brand">
+        <span class="ui-dot"></span>
+        <span class="topbar__label">Aero Music</span>
+      </div>
+
+      <div class="topbar__meta">
+        <span class="pill">Gen X Soft</span>
+        <span class="pill">Frutiger Aero</span>
+        <span class="pill">Local Audio Portal</span>
+      </div>
+    </header>
+
+    <section class="portal-grid">
+      <aside class="profile-panel panel">
+        <div class="profile-panel__topline">
+          <span class="signal-pill">Transmission Stable</span>
+          <span class="profile-panel__code">Portal A-02</span>
+        </div>
+
+        <div class="profile-panel__orb"></div>
+
+        <div class="profile-panel__identity">
+          <p class="micro-label">Profile Signal</p>
+          <h1>Chooi</h1>
+          <p class="profile-panel__subtitle">The sound for a better future</p>
+        </div>
+
+        <div class="profile-panel__stats">
+          <div class="stat-chip">
+            <span class="stat-chip__label">Mode</span>
+            <span class="stat-chip__value">Chrome Rain</span>
+          </div>
+          <div class="stat-chip">
+            <span class="stat-chip__label">Tone</span>
+            <span class="stat-chip__value">Soft Pressure</span>
+          </div>
+          <div class="stat-chip">
+            <span class="stat-chip__label">Scene</span>
+            <span class="stat-chip__value">Night Drive</span>
+          </div>
+        </div>
+
+        <div class="profile-panel__micro-grid">
+          <div class="micro-module inset-panel">
+            <p class="micro-label">Portal Type</p>
+            <strong>Music / Identity</strong>
+          </div>
+          <div class="micro-module inset-panel">
+            <p class="micro-label">Status</p>
+            <strong>Airy / Active</strong>
+          </div>
+        </div>
+
+        <div class="profile-panel__blurb inset-panel">
+          <p class="micro-label">Portal Note</p>
+          <p>
+            A small music portal shaped like a glossy object: chrome light, rooftop rain,
+            soft club air, and digital-future optimism.
+          </p>
+        </div>
+      </aside>
+
+      <section class="hero-panel panel">
+        <div class="hero-panel__header">
+          <div>
+            <p class="micro-label">Featured Track</p>
+            <h2>In My Soul</h2>
+          </div>
+          <button class="capsule-button" type="button" data-jump="#track-list">
+            Open Track List
+          </button>
+        </div>
+
+        <p class="hero-panel__text">
+          Cool mist, white glow, metallic calm, and a late-night skyline reflected in glass.
+        </p>
+
+        <div class="hero-panel__player inset-panel">
+          <div class="hero-panel__player-meta">
+            <span class="signal-pill">Now Playing</span>
+            <span class="hero-panel__time">Local file preview</span>
+          </div>
+
+          <div class="player-frame">
+            <div class="player-frame__strip">
+              <span class="player-frame__label">Featured Source</span>
+              <span class="player-frame__quality">WAV / Local</span>
+            </div>
+
+            <audio controls>
+              <source src="audio/track-03.wav" type="audio/wav">
+            </audio>
+          </div>
+        </div>
+
+        <div class="hero-panel__footer">
+          <div class="info-chip">
+            <span class="info-chip__label">Mood</span>
+            <span class="info-chip__value">Rain gloss / silver air</span>
+          </div>
+          <div class="info-chip">
+            <span class="info-chip__label">Energy</span>
+            <span class="info-chip__value">Soft Trance</span>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="module-grid">
+      <section class="module panel" id="track-list">
+        <div class="module__header">
+          <div>
+            <p class="micro-label">Track List</p>
+            <h3>Playable Local Tracks</h3>
+          </div>
+          <span class="module__badge">03 files</span>
+        </div>
+
+        <div class="track-stack">
+          <article class="track-card inset-panel">
+            <div class="track-card__top">
+              <div>
+                <p class="track-card__index">01</p>
+                <h4>Gen X FT. Ekan</h4>
+              </div>
+              <span class="track-card__tag">Featured</span>
+            </div>
+            <p class="track-card__text">
+              Chrome reflections, cool vapor, and the first glow after the city goes quiet.
+            </p>
+            <div class="track-card__player">
+              <div class="track-card__meta">
+                <span class="track-card__meta-pill">Local Player</span>
+                <span class="track-card__meta-text">Gen X.wav</span>
+              </div>
+              <audio controls>
+                <source src="audio/track-02.wav" type="audio/wav">
+              </audio>
+            </div>
+          </article>
+
+          <article class="track-card inset-panel">
+            <div class="track-card__top">
+              <div>
+                <p class="track-card__index">02</p>
+                <h4>2 Late FT. Ekan</h4>
+              </div>
+              <span class="track-card__tag">Local</span>
+            </div>
+            <p class="track-card__text">
+              A gentler pulse with clouded synth texture, cool restraint, and wet neon edges.
+            </p>
+            <div class="track-card__player">
+              <div class="track-card__meta">
+                <span class="track-card__meta-pill">Local Player</span>
+                <span class="track-card__meta-text">2 Late.wav</span>
+              </div>
+              <audio controls>
+                <source src="audio/track-01.wav" type="audio/wav">
+              </audio>
+            </div>
+          </article>
+
+          <article class="track-card inset-panel">
+            <div class="track-card__top">
+              <div>
+                <p class="track-card__index">03</p>
+                <h4>I Luv U So</h4>
+              </div>
+              <span class="track-card__tag">Portal Mix</span>
+            </div>
+            <p class="track-card__text">
+              Highway light trails, glass dashboards, silver-blue motion, and softened speed.
+            </p>
+            <div class="track-card__player">
+              <div class="track-card__meta">
+                <span class="track-card__meta-pill">Local Player</span>
+                <span class="track-card__meta-text">I Luv U So.wav</span>
+              </div>
+              <audio controls>
+                <source src="audio/track-04.wav" type="audio/wav">
+              </audio>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="module panel">
+        <div class="module__header">
+          <div>
+            <p class="micro-label">About</p>
+            <h3>About the Sound</h3>
+          </div>
+        </div>
+
+        <div class="module__content inset-panel">
+          <p>
+            This showcase leans into a nostalgic-futurist atmosphere: luxury tech surfaces,
+            wet skyline reflections, rounded interface objects, and a calmer kind of nightlife.
+          </p>
+          <p>
+            The goal is not festival chaos. It is polished motion, cool air, silver edges,
+            and music that feels like a digital object from an optimistic future.
+          </p>
+        </div>
+      </section>
+
+      <section class="module panel">
+        <div class="module__header">
+          <div>
+            <p class="micro-label">Moodboard</p>
+            <h3>Visual Mood</h3>
+          </div>
+        </div>
+
+        <div class="mood-grid">
+          <div class="mood-tile mood-tile--cloud">
+            <video autoplay muted loop playsinline>
+              <source src="video/cloud-glass.mp4" type="video/mp4">
+            </video>
+            <span>Cloud Glass</span>
+          </div>
+
+          <div class="mood-tile mood-tile--chrome">
+            <video autoplay muted loop playsinline>
+              <source src="video/chrome-light.mp4" type="video/mp4">
+            </video>
+            <span>Chrome Light</span>
+          </div>
+
+          <div class="mood-tile mood-tile--rain">
+            <video autoplay muted loop playsinline>
+              <source src="video/rain-signal.mp4" type="video/mp4">
+            </video>
+            <span>Rain Signal</span>
+          </div>
+
+          <div class="mood-tile mood-tile--night">
+            <video autoplay muted loop playsinline>
+              <source src="video/night-drive.mp4" type="video/mp4">
+            </video>
+            <span>Night Drive</span>
+          </div>
+        </div>
+      </section>
+
+      <footer class="module panel footer-panel">
+        <div class="module__header">
+          <div>
+            <p class="micro-label">Links</p>
+            <h3>Portal Exit</h3>
+          </div>
+        </div>
+
+        <div class="footer-panel__content inset-panel">
+          <a href="https://www.instagram.com/onlychooi/" class="footer-link" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="#" class="footer-link">Sound Archive</a>
+          <a href="#" class="footer-link">Contact</a>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
